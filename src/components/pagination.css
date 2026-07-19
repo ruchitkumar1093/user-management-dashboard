@@ -1,0 +1,28 @@
+button{
+    padding: 10px;
+    border-style: none;
+    border-radius: 8px;
+    background-color: rgb(148, 202, 140);
+    cursor: pointer;
+    box-shadow: 0px 1px 3px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(113, 166, 104);
+}
+
+.btn{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.active{
+    background-color: rgb(48, 78, 43);
+    color: white;
+}
+
+.active:hover{
+    background-color: rgb(48, 78, 43);
+}

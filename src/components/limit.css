@@ -1,0 +1,13 @@
+.dropDown{
+    padding: 3px;
+    border-radius: 5px;
+    
+}
+
+.dropDown{
+    outline: none;
+}
+
+.dropDown:hover{
+    outline: 1px solid;
+}

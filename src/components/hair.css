@@ -1,0 +1,16 @@
+.hr select{
+    padding: 3px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.hr select:hover{
+    outline: 1px solid;
+}
+
+.hr{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+

@@ -1,0 +1,14 @@
+.fltr{
+    padding: 3px;
+    border-radius: 5px;
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.fltr{
+    outline: none;
+}
+
+.fltr:hover {
+    outline: 1px solid;
+}

@@ -1,0 +1,58 @@
+.userForm {
+  /* display: flex; */
+  /* justify-content: center; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  max-width: 900px;
+  margin: auto;
+}
+
+body{
+  background-color: rgb(235, 255, 231);
+}
+
+.top{
+  background-color: rgb(148, 202, 140);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.userForm form{
+    /* display: flex;
+    flex-direction: column; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+}
+
+.userForm form div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 300px;
+}
+
+.userForm input{
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+    border: 1px solid;
+}
+
+.userForm input:focus{
+    outline: 1px solid;
+}
+
+.userForm .btn{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 10px;
+}

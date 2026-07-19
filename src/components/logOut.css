@@ -1,0 +1,11 @@
+.logOutBtn{
+    /* background-color: rgb(222, 18, 18); */
+    color: white;
+    background-color: rgb(59, 141, 47);
+    box-shadow: 0px 1px 3px black;
+}
+
+.logOutBtn:hover{
+    /* color: white; */
+    background-color: rgb(47, 113, 37);
+}

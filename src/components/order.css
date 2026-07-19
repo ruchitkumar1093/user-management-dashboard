@@ -1,0 +1,12 @@
+.order{
+    padding: 3px;
+    border-radius: 5px;
+}
+
+.order{
+    outline: none;
+}
+
+.order:focus{
+    outline: 1px solid;
+}
