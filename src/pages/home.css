@@ -102,3 +102,82 @@ body {
     flex-wrap: wrap;
   }
 }
+
+@media (max-width: 540px) {
+  .container {
+    padding-inline: 12px;
+  }
+
+  .top {
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 16px;
+  }
+
+  .topRight {
+    width: 100%;
+  }
+
+  .topRight .head {
+    display: flex;
+    flex: 1 1 100%;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+  }
+
+  .topRight .searchBar {
+    flex: 1;
+    min-width: 0;
+    width: 100%;
+  }
+
+  .topRight > :last-child {
+    margin-left: auto;
+  }
+
+  .header {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .header .head,
+  .header .label {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+  }
+
+  .header .hr {
+    align-items: stretch;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .edge > div:not(.header):not(.newUser),
+  .edge .newUser {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .edge > div:not(.header):not(.newUser) button,
+  .edge .newUser button {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .bottom {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .bottom .btn {
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .bottom > div:last-child {
+    align-self: center;
+  }
+}
